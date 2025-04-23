@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <!-- <nav class="bg-amber-200 flex gap-4 right-4 h-[50px]">
+
+        <ul>
+            <a href="Home">Home</a>
+        </ul>
+
+        <ul>
+            <a href="Movies">Movies</a>
+        </ul>
+
+        <ul>
+            <a href="Series">Series</a>
+        </ul>
+
+    </nav> -->
+
+
+
+        <nav class="bg-black h-[50px] items-center fixed top-0 z-1 w-full flex justify-around">
+        <ul class="flex gap-10 right-4">
+            <li><a href="/" class="text-white font-bold hover:text-green
+                -600 text-lg">Home</a></li>
+            <li><a href="/movie" class="text-white font-bold hover:text-green
+                -600 text-lg hover:underline">Movie</a></li>
+            <li><a href="/series" class="text-white font-bold hover:text-green
+                -600 text-lg">Series</a></li>
+        </ul>
+        <input type="search" placeholder="Search..." class="bg-gray-700 rounded-lg text-gray-500">
+    </nav>
+    <div class="bg-[url(/images/JIRO.webp)] bg-cover bg-no-repeat h-screen object-cover relative mt-[50px]">
+        <div class="absolute bottom-10 w-[400px] p-5">
+            <h1 class="text-green-600 text-6xl font-extrabold">JIRO</h1>
+            <p class="text-white font-bold text-xl">Monica has a podcast and Alex has a dark secret. Sometimes, meeting up with online friends in real life isn't such a good idea.</p>
+            <p class="text-white font-bold text-2xl mt-3">Duration: <span class="text-amber-600">1hr 30min</span></p>
+            <button class="bg-green
+            -600 w-[100px] px-8 py-2 rounded-lg cursor-pointer text-white font-bold my-5">Watch</button>
+        </div>
+        
+    </div>
+    <!-- <p>Welcome to minister of entertainment page!!!</p> -->
+    <main class="bg-black">
+        <div class="border border-green-600 h-[75vh]">
+            <h2 class="text-3xl font-bold uppercase mt-5 text-white">Top <span class="text-green
+                -600">5</span> movies</h2>
+            <div class="flex gap-10 h-[50vh] border border-green-600 mt-5 justify-around">
+                <section class="w-[200px] h-full border-3 border-green
+                -600">
+                    <img src="/images/CLEANER.webp" alt="Action">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">CLEANER</h3>
+                    <p class="text-lg text-white">2010</p>
+                </section>
+                <section class="w-[200px] h-[300px] border-3 border-green
+                -600">
+                    <img src="/images/AVENGERS.webp" alt="Z zone">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">AVENGERS</h3>
+                    <p class="text-lg">2011</p>
+                </section>
+                <section class="w-[200px] h-[300px] border-3 border-green
+                -600">
+                    <img src="/images/FLIGHT RISK.webp" alt="Kraven">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">FLIGHT RISK</h3>
+                    <p class="text-lg text-white">2012</p>
+                </section>
+                <section class="w-[200px] h-[300px] border-3 border-green
+                -600">
+                    <img src="/images/MOANA 2.webp" alt="Carjackers">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">MOANA 2</h3>
+                    <p class="text-lg text-white">2013</p>
+                </section>
+                <section class="w-[200px] h-[300px] border-3 border-green
+                -600">
+                    <img src="/images/SQUAD 36.webp" alt="Codes of war">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">SQUAD 36</h3>
+                    <p class="text-lg text-white">2016</p>
+                </section>
+            </div>
+            
+        </div>
+        <div class="border border-green
+        -600 h-[75vh]">
+            <h2 class="text-3xl font-bold uppercase mt-5 text-white">LATEST <span class="text-green
+                -600">5</span> SERIES</h2>
+            <div class="flex gap-10 h-[50vh] border border-green
+            -600 mt-5 justify-around">
+                <section class="w-[200px] h-full border-3 border-green
+                -600">
+                    <img src="/images/THE SUBSTANCE.webp" alt="Despicable Me 4">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">THE SUBSTANCE</h3>
+                    <p class="text-lg text-white">2014</p>
+                </section>
+                <section class="w-[200px] h-[300px] border-3 border-green
+                -600">
+                    <img src="/images/THE GODFATHER.webp" alt="Giro: Final Twist">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">THE GOD FATHER</h3>
+                    <p class="text-lg text-white">2015</p>
+                </section>
+                <section class="w-[200px] h-[300px] border-3 border-green
+                -600">
+                    <img src="/images/ELEVATION.webp" alt="Moana 2">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">ELEVATION</h3>
+                    <p class="text-lg text-white">2016</p>
+                </section>
+                <section class="w-[200px] h-[300px] border-3 border-green
+                -600">
+                    <img src="/images/THE USUAL SUSPECT.webp" alt="Cleaner">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">THE USUAL SUSPECT</h3>
+                    <p class="text-lg text-white">2017</p>
+                </section>
+                <section class="w-[200px] h-[300px] border-3 border-green
+                -600">
+                    <img src="/images/OLD GUY.webp" alt="The Monkey">
+                    <h3 class="font-bold text-xl text-green
+                    -600 mt-2">OLD GUY</h3>
+                    <p class="text-lg text-white">2018</p>
+                </section>
+            </div>
+            
+        </div>
+    </main>
+    <footer class="bg-black mt-1 py-3">
+        <h3 class="text-white text-2xl font-bold flex justify-center">Categ <span class="text-green
+            -600">o</span> ries</h3>
+        <div class="flex justify-around mt-5 mb-3">
+            <section>
+                <ul class="text-white flex gap-10">
+                    <li><a href="#" class="hover:text-amber-600">Bollywood</a></li>
+                    <li><a href="#" class="hover:text-amber-600">Hollywood</a></li>
+                    <li><a href="#" class="hover:text-amber-600">Nollywood</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul class="flex gap-10 text-white">
+                    <li><a href="#" class="hover:text-amber-600">Thriller</a></li>
+                    <li><a href="#" class="hover:text-amber-600">Action</a></li>
+                    <li><a href="#" class="hover:text-amber-600">Drama</a></li>
+                </ul>
+            </section>
+        </div>
+        <p class="text-gray-500 flex justify-center">&copy; G-man254. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
